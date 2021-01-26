@@ -9,10 +9,10 @@ A simple endpoint to take a JSON body from a form that forwards it as an email u
 
 3. Configure serverless with your credentials:
 ```
-serverless config credentials \
-    --provider aws \
-    --key xxxxxxxxxxxxxx \
-    --secret xxxxxxxxxxxxxx
+    serverless config credentials \
+        --provider aws \
+        --key xxxxxxxxxxxxxx \
+        --secret xxxxxxxxxxxxxx
 ```
 
 4. Create `secrets.json` in the root folder, follow the example in `secrets.example.json` to fill in the necessary parameters.
@@ -31,4 +31,6 @@ serverless config credentials \
 }
 ```
 
-This repo relies heavily on [this blog post by Adnan Rahic], thanks for the awesome info.
+
+
+This repo relies heavily on [this blog post by Adnan Rahic](https://dev.to/adnanrahic/building-a-serverless-contact-form-with-aws-lambda-and-aws-ses-4jm0), thanks for the awesome info!
